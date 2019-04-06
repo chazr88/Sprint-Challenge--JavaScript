@@ -1,6 +1,6 @@
 # Sprint Challenge: JavaScript Fundamentals
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems..
 
 ## Instructions
 
@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+~forEach executes a function with an array. Map creates a new array in a different format. 
 
 2. What is the difference between a function and a method?
+~A method is a function used inside of a class
 
 3. What is closure?
+~The ability for functions to look inside its scope and outwards (never inwards). a combo of a function and its lexical enviroment where it was declared
 
-4. Describe the four rules of the 'this' keyword.
+4. Describe the four rules of the 'this' keyword. 
+~Global, Implicit, Explicit, New Binding 
 
 5. Why do we need super() in an extended class?
+~So it can gain the properties of its parent class
 
 ## Project Set up
 
