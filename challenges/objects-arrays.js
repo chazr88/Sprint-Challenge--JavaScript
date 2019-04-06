@@ -104,8 +104,11 @@ const uni = [];
 
 onlyUni = graduates;
 for(let i = 0; i < onlyUni.length; i++) {
-  uni.push(onlyUni.includes('uni'))
+  if(onlyUni[i].university.includes('Uni')){
+    uni.push(onlyUni[i].university)
+  }
 }
+
 console.log(uni);
 
 
@@ -174,11 +177,11 @@ The zoos need to know their total animal population across the United States.  F
 */
 const populationTotal = 0;
 
-const totalPop = zooAnimals.reduce(function(total, pop){
+const totalPop = zooAnimals.reduce((total, pop) => {
   return total += pop.population;
-}) 
+})
 
-if(populationTotal < totalPop) {
+if(populationTotal < totalPop){
   populationTotal ++;
 }
 
